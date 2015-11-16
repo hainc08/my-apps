@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  bunpou
+
+  Created by HAIMV on 2/28/26 H.
+  Copyright (c) 26 Heisei haimv-pc. All rights reserved.
+*/
+"history"="History";
+"favorite"="Favorite";
+"level"="Level";
+"menu"="Menu";
+"Account" = "Account";
+"NotificationMessage"="Let's go to learning Japanese Grammar now !";

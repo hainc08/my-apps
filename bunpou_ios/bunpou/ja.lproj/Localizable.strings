@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  bunpou
+
+  Created by HAIMV on 2/28/26 H.
+  Copyright (c) 26 Heisei haimv-pc. All rights reserved.
+*/
+"history"="履歴";
+"favorite"="気になる";
+"level"="レベル";
+"menu"="メニュー";
+"Account" = "Account";
+"NotificationMessage"="今日も日本語を練習しましょう＾＾";
