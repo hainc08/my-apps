@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434B2987602EE69FAD09AA07 /* libPods-ViTuBe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BD74E2F80F706B123AD155 /* libPods-ViTuBe.a */; };
+		703D1B711BEB343500F4D936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1B701BEB343500F4D936 /* main.m */; };
+		703D1B741BEB343500F4D936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1B731BEB343500F4D936 /* AppDelegate.m */; };
+		703D1B771BEB343500F4D936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1B761BEB343500F4D936 /* ViewController.m */; };
+		703D1B7A1BEB343500F4D936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703D1B781BEB343500F4D936 /* Main.storyboard */; };
+		703D1B7C1BEB343500F4D936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703D1B7B1BEB343500F4D936 /* Assets.xcassets */; };
+		703D1B7F1BEB343500F4D936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703D1B7D1BEB343500F4D936 /* LaunchScreen.storyboard */; };
+		703D1B911BEB362D00F4D936 /* ListYouTube-v3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 703D1B901BEB362D00F4D936 /* ListYouTube-v3.plist */; };
+		703D1B941BEB376400F4D936 /* YotubeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1B931BEB376400F4D936 /* YotubeEntity.m */; };
+		703D1B9A1BEB384600F4D936 /* SourceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1B991BEB384600F4D936 /* SourceConfig.m */; };
+		703D1BA81BEB38C300F4D936 /* KM_NSArray+SafeValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1B9D1BEB38C300F4D936 /* KM_NSArray+SafeValues.m */; };
+		703D1BA91BEB38C300F4D936 /* KM_NSString+UrlEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1B9F1BEB38C300F4D936 /* KM_NSString+UrlEncoding.m */; };
+		703D1BAA1BEB38C300F4D936 /* KM_NSURL+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BA11BEB38C300F4D936 /* KM_NSURL+Parameters.m */; };
+		703D1BAB1BEB38C300F4D936 /* NSBundle+Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BA31BEB38C300F4D936 /* NSBundle+Loader.m */; };
+		703D1BAC1BEB38C300F4D936 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BA51BEB38C300F4D936 /* NSString+MD5.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		703D1BAD1BEB38C300F4D936 /* UIFont+GillSansFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BA71BEB38C300F4D936 /* UIFont+GillSansFonts.m */; };
+		703D1BB01BEB38D900F4D936 /* KM_NSDictionary+SafeValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BAF1BEB38D900F4D936 /* KM_NSDictionary+SafeValues.m */; };
+		703D1BBA1BEB3A7F00F4D936 /* KMSourceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 703D1BB91BEB3A7F00F4D936 /* KMSourceConfig.plist */; };
+		703D1BBC1BEB3D2500F4D936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D1BBB1BEB3D2500F4D936 /* UIKit.framework */; };
+		703D1BBE1BEB3D2E00F4D936 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D1BBD1BEB3D2E00F4D936 /* SystemConfiguration.framework */; };
+		703D1BC01BEB3D3400F4D936 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D1BBF1BEB3D3400F4D936 /* CoreGraphics.framework */; };
+		703D1BC21BEB3D3F00F4D936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703D1BC11BEB3D3F00F4D936 /* Foundation.framework */; };
+		703D1BC81BEB3F7800F4D936 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BC71BEB3F7800F4D936 /* BaseViewController.m */; };
+		703D1BCC1BEB400900F4D936 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BCB1BEB400900F4D936 /* TopViewController.m */; };
+		703D1BD01BEB41FD00F4D936 /* BaseSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BCF1BEB41FD00F4D936 /* BaseSource.m */; };
+		703D1BD31BEB423700F4D936 /* VideoCategoriesSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BD21BEB423700F4D936 /* VideoCategoriesSource.m */; };
+		703D1BD61BEB451300F4D936 /* CategoriesEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 703D1BD51BEB451300F4D936 /* CategoriesEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070F7885198352E1F78430D5 /* Pods-ViTuBe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViTuBe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViTuBe/Pods-ViTuBe.release.xcconfig"; sourceTree = "<group>"; };
+		0DD5DE41DD7F5C9C6BADDD57 /* Pods-ViTuBe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViTuBe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViTuBe/Pods-ViTuBe.debug.xcconfig"; sourceTree = "<group>"; };
+		27BD74E2F80F706B123AD155 /* libPods-ViTuBe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViTuBe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		703D1B6C1BEB343500F4D936 /* ViTuBe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViTuBe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		703D1B701BEB343500F4D936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		703D1B721BEB343500F4D936 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		703D1B731BEB343500F4D936 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		703D1B751BEB343500F4D936 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		703D1B761BEB343500F4D936 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		703D1B791BEB343500F4D936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		703D1B7B1BEB343500F4D936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		703D1B7E1BEB343500F4D936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		703D1B801BEB343500F4D936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703D1B901BEB362D00F4D936 /* ListYouTube-v3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ListYouTube-v3.plist"; sourceTree = "<group>"; };
+		703D1B921BEB376400F4D936 /* YotubeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YotubeEntity.h; sourceTree = "<group>"; };
+		703D1B931BEB376400F4D936 /* YotubeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YotubeEntity.m; sourceTree = "<group>"; };
+		703D1B981BEB384600F4D936 /* SourceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceConfig.h; sourceTree = "<group>"; };
+		703D1B991BEB384600F4D936 /* SourceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceConfig.m; sourceTree = "<group>"; };
+		703D1B9C1BEB38C300F4D936 /* KM_NSArray+SafeValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KM_NSArray+SafeValues.h"; sourceTree = "<group>"; };
+		703D1B9D1BEB38C300F4D936 /* KM_NSArray+SafeValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KM_NSArray+SafeValues.m"; sourceTree = "<group>"; };
+		703D1B9E1BEB38C300F4D936 /* KM_NSString+UrlEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KM_NSString+UrlEncoding.h"; sourceTree = "<group>"; };
+		703D1B9F1BEB38C300F4D936 /* KM_NSString+UrlEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KM_NSString+UrlEncoding.m"; sourceTree = "<group>"; };
+		703D1BA01BEB38C300F4D936 /* KM_NSURL+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KM_NSURL+Parameters.h"; sourceTree = "<group>"; };
+		703D1BA11BEB38C300F4D936 /* KM_NSURL+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KM_NSURL+Parameters.m"; sourceTree = "<group>"; };
+		703D1BA21BEB38C300F4D936 /* NSBundle+Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Loader.h"; sourceTree = "<group>"; };
+		703D1BA31BEB38C300F4D936 /* NSBundle+Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Loader.m"; sourceTree = "<group>"; };
+		703D1BA41BEB38C300F4D936 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		703D1BA51BEB38C300F4D936 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		703D1BA61BEB38C300F4D936 /* UIFont+GillSansFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GillSansFonts.h"; sourceTree = "<group>"; };
+		703D1BA71BEB38C300F4D936 /* UIFont+GillSansFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GillSansFonts.m"; sourceTree = "<group>"; };
+		703D1BAE1BEB38D900F4D936 /* KM_NSDictionary+SafeValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KM_NSDictionary+SafeValues.h"; sourceTree = "<group>"; };
+		703D1BAF1BEB38D900F4D936 /* KM_NSDictionary+SafeValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KM_NSDictionary+SafeValues.m"; sourceTree = "<group>"; };
+		703D1BB91BEB3A7F00F4D936 /* KMSourceConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KMSourceConfig.plist; path = "../../../Video Intro/MovieApp/LeftMenuBar/Resources/KMSourceConfig.plist"; sourceTree = "<group>"; };
+		703D1BBB1BEB3D2500F4D936 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		703D1BBD1BEB3D2E00F4D936 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		703D1BBF1BEB3D3400F4D936 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		703D1BC11BEB3D3F00F4D936 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		703D1BC31BEB3D9600F4D936 /* AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		703D1BC41BEB3DA000F4D936 /* PrefixFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixFile.h; sourceTree = "<group>"; };
+		703D1BC51BEB3E3900F4D936 /* ViTuBeHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViTuBeHeader.pch; sourceTree = "<group>"; };
+		703D1BC61BEB3F7800F4D936 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		703D1BC71BEB3F7800F4D936 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		703D1BCA1BEB400900F4D936 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		703D1BCB1BEB400900F4D936 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		703D1BCE1BEB41FD00F4D936 /* BaseSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSource.h; sourceTree = "<group>"; };
+		703D1BCF1BEB41FD00F4D936 /* BaseSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSource.m; sourceTree = "<group>"; };
+		703D1BD11BEB423700F4D936 /* VideoCategoriesSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCategoriesSource.h; sourceTree = "<group>"; };
+		703D1BD21BEB423700F4D936 /* VideoCategoriesSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCategoriesSource.m; sourceTree = "<group>"; };
+		703D1BD41BEB451300F4D936 /* CategoriesEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesEntity.h; sourceTree = "<group>"; };
+		703D1BD51BEB451300F4D936 /* CategoriesEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesEntity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		703D1B691BEB343500F4D936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D1BC21BEB3D3F00F4D936 /* Foundation.framework in Frameworks */,
+				703D1BC01BEB3D3400F4D936 /* CoreGraphics.framework in Frameworks */,
+				703D1BBE1BEB3D2E00F4D936 /* SystemConfiguration.framework in Frameworks */,
+				703D1BBC1BEB3D2500F4D936 /* UIKit.framework in Frameworks */,
+				434B2987602EE69FAD09AA07 /* libPods-ViTuBe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703D1B631BEB343400F4D936 = {
+			isa = PBXGroup;
+			children = (
+				703D1B6E1BEB343500F4D936 /* ViTuBe */,
+				703D1B6D1BEB343500F4D936 /* Products */,
+				7ECA8B666097C91537854C30 /* Pods */,
+				F00D2E77ABB31A39F703933E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		703D1B6D1BEB343500F4D936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				703D1B6C1BEB343500F4D936 /* ViTuBe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		703D1B6E1BEB343500F4D936 /* ViTuBe */ = {
+			isa = PBXGroup;
+			children = (
+				703D1B861BEB360700F4D936 /* Classes */,
+				703D1B8F1BEB360700F4D936 /* Resources */,
+				703D1B721BEB343500F4D936 /* AppDelegate.h */,
+				703D1B731BEB343500F4D936 /* AppDelegate.m */,
+				703D1B751BEB343500F4D936 /* ViewController.h */,
+				703D1B761BEB343500F4D936 /* ViewController.m */,
+				703D1B781BEB343500F4D936 /* Main.storyboard */,
+				703D1B7B1BEB343500F4D936 /* Assets.xcassets */,
+				703D1B7D1BEB343500F4D936 /* LaunchScreen.storyboard */,
+				703D1B801BEB343500F4D936 /* Info.plist */,
+				703D1B6F1BEB343500F4D936 /* Supporting Files */,
+			);
+			path = ViTuBe;
+			sourceTree = "<group>";
+		};
+		703D1B6F1BEB343500F4D936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				703D1B701BEB343500F4D936 /* main.m */,
+				703D1BC51BEB3E3900F4D936 /* ViTuBeHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		703D1B861BEB360700F4D936 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				703D1B871BEB360700F4D936 /* Common */,
+				703D1B881BEB360700F4D936 /* Controller */,
+				703D1B8A1BEB360700F4D936 /* Helper */,
+				703D1B8B1BEB360700F4D936 /* Model */,
+				703D1B8C1BEB360700F4D936 /* Service */,
+				703D1B8D1BEB360700F4D936 /* ThirdParty */,
+				703D1B8E1BEB360700F4D936 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		703D1B871BEB360700F4D936 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BC41BEB3DA000F4D936 /* PrefixFile.h */,
+				703D1BC31BEB3D9600F4D936 /* AppConfig.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		703D1B881BEB360700F4D936 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				703D1B891BEB360700F4D936 /* base */,
+				703D1BC91BEB3FF100F4D936 /* Top */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		703D1B891BEB360700F4D936 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BC61BEB3F7800F4D936 /* BaseViewController.h */,
+				703D1BC71BEB3F7800F4D936 /* BaseViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		703D1B8A1BEB360700F4D936 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		703D1B8B1BEB360700F4D936 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				703D1B921BEB376400F4D936 /* YotubeEntity.h */,
+				703D1B931BEB376400F4D936 /* YotubeEntity.m */,
+				703D1BD41BEB451300F4D936 /* CategoriesEntity.h */,
+				703D1BD51BEB451300F4D936 /* CategoriesEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		703D1B8C1BEB360700F4D936 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BCD1BEB419C00F4D936 /* VideoCategories */,
+				703D1B981BEB384600F4D936 /* SourceConfig.h */,
+				703D1B991BEB384600F4D936 /* SourceConfig.m */,
+				703D1BCE1BEB41FD00F4D936 /* BaseSource.h */,
+				703D1BCF1BEB41FD00F4D936 /* BaseSource.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		703D1B8D1BEB360700F4D936 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		703D1B8E1BEB360700F4D936 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				703D1B9B1BEB38C300F4D936 /* Categories */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		703D1B8F1BEB360700F4D936 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BB91BEB3A7F00F4D936 /* KMSourceConfig.plist */,
+				703D1B901BEB362D00F4D936 /* ListYouTube-v3.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		703D1B9B1BEB38C300F4D936 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BAE1BEB38D900F4D936 /* KM_NSDictionary+SafeValues.h */,
+				703D1BAF1BEB38D900F4D936 /* KM_NSDictionary+SafeValues.m */,
+				703D1B9C1BEB38C300F4D936 /* KM_NSArray+SafeValues.h */,
+				703D1B9D1BEB38C300F4D936 /* KM_NSArray+SafeValues.m */,
+				703D1B9E1BEB38C300F4D936 /* KM_NSString+UrlEncoding.h */,
+				703D1B9F1BEB38C300F4D936 /* KM_NSString+UrlEncoding.m */,
+				703D1BA01BEB38C300F4D936 /* KM_NSURL+Parameters.h */,
+				703D1BA11BEB38C300F4D936 /* KM_NSURL+Parameters.m */,
+				703D1BA21BEB38C300F4D936 /* NSBundle+Loader.h */,
+				703D1BA31BEB38C300F4D936 /* NSBundle+Loader.m */,
+				703D1BA41BEB38C300F4D936 /* NSString+MD5.h */,
+				703D1BA51BEB38C300F4D936 /* NSString+MD5.m */,
+				703D1BA61BEB38C300F4D936 /* UIFont+GillSansFonts.h */,
+				703D1BA71BEB38C300F4D936 /* UIFont+GillSansFonts.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		703D1BC91BEB3FF100F4D936 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BCA1BEB400900F4D936 /* TopViewController.h */,
+				703D1BCB1BEB400900F4D936 /* TopViewController.m */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		703D1BCD1BEB419C00F4D936 /* VideoCategories */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BD11BEB423700F4D936 /* VideoCategoriesSource.h */,
+				703D1BD21BEB423700F4D936 /* VideoCategoriesSource.m */,
+			);
+			path = VideoCategories;
+			sourceTree = "<group>";
+		};
+		7ECA8B666097C91537854C30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DD5DE41DD7F5C9C6BADDD57 /* Pods-ViTuBe.debug.xcconfig */,
+				070F7885198352E1F78430D5 /* Pods-ViTuBe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F00D2E77ABB31A39F703933E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				703D1BC11BEB3D3F00F4D936 /* Foundation.framework */,
+				703D1BBF1BEB3D3400F4D936 /* CoreGraphics.framework */,
+				703D1BBD1BEB3D2E00F4D936 /* SystemConfiguration.framework */,
+				703D1BBB1BEB3D2500F4D936 /* UIKit.framework */,
+				27BD74E2F80F706B123AD155 /* libPods-ViTuBe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		703D1B6B1BEB343500F4D936 /* ViTuBe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703D1B831BEB343500F4D936 /* Build configuration list for PBXNativeTarget "ViTuBe" */;
+			buildPhases = (
+				2C6FF42120C85D204526E642 /* Check Pods Manifest.lock */,
+				703D1B681BEB343500F4D936 /* Sources */,
+				703D1B691BEB343500F4D936 /* Frameworks */,
+				703D1B6A1BEB343500F4D936 /* Resources */,
+				0651506E9F67763C7483CEC0 /* Embed Pods Frameworks */,
+				19D44E19F8181CCFCEA3016B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViTuBe;
+			productName = ViTuBe;
+			productReference = 703D1B6C1BEB343500F4D936 /* ViTuBe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		703D1B641BEB343400F4D936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = haimv;
+				TargetAttributes = {
+					703D1B6B1BEB343500F4D936 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 703D1B671BEB343400F4D936 /* Build configuration list for PBXProject "ViTuBe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 703D1B631BEB343400F4D936;
+			productRefGroup = 703D1B6D1BEB343500F4D936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				703D1B6B1BEB343500F4D936 /* ViTuBe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		703D1B6A1BEB343500F4D936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D1B7F1BEB343500F4D936 /* LaunchScreen.storyboard in Resources */,
+				703D1B911BEB362D00F4D936 /* ListYouTube-v3.plist in Resources */,
+				703D1B7C1BEB343500F4D936 /* Assets.xcassets in Resources */,
+				703D1BBA1BEB3A7F00F4D936 /* KMSourceConfig.plist in Resources */,
+				703D1B7A1BEB343500F4D936 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0651506E9F67763C7483CEC0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViTuBe/Pods-ViTuBe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19D44E19F8181CCFCEA3016B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViTuBe/Pods-ViTuBe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C6FF42120C85D204526E642 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		703D1B681BEB343500F4D936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703D1BD31BEB423700F4D936 /* VideoCategoriesSource.m in Sources */,
+				703D1BD01BEB41FD00F4D936 /* BaseSource.m in Sources */,
+				703D1BA91BEB38C300F4D936 /* KM_NSString+UrlEncoding.m in Sources */,
+				703D1BD61BEB451300F4D936 /* CategoriesEntity.m in Sources */,
+				703D1B771BEB343500F4D936 /* ViewController.m in Sources */,
+				703D1BA81BEB38C300F4D936 /* KM_NSArray+SafeValues.m in Sources */,
+				703D1BB01BEB38D900F4D936 /* KM_NSDictionary+SafeValues.m in Sources */,
+				703D1BCC1BEB400900F4D936 /* TopViewController.m in Sources */,
+				703D1BC81BEB3F7800F4D936 /* BaseViewController.m in Sources */,
+				703D1BAC1BEB38C300F4D936 /* NSString+MD5.m in Sources */,
+				703D1B9A1BEB384600F4D936 /* SourceConfig.m in Sources */,
+				703D1B741BEB343500F4D936 /* AppDelegate.m in Sources */,
+				703D1B941BEB376400F4D936 /* YotubeEntity.m in Sources */,
+				703D1BAD1BEB38C300F4D936 /* UIFont+GillSansFonts.m in Sources */,
+				703D1BAB1BEB38C300F4D936 /* NSBundle+Loader.m in Sources */,
+				703D1BAA1BEB38C300F4D936 /* KM_NSURL+Parameters.m in Sources */,
+				703D1B711BEB343500F4D936 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		703D1B781BEB343500F4D936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703D1B791BEB343500F4D936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		703D1B7D1BEB343500F4D936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703D1B7E1BEB343500F4D936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		703D1B811BEB343500F4D936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		703D1B821BEB343500F4D936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703D1B841BEB343500F4D936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD5DE41DD7F5C9C6BADDD57 /* Pods-ViTuBe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = Vitube/ViTuBeHeader.pch;
+				INFOPLIST_FILE = ViTuBe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mts.ViTuBe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		703D1B851BEB343500F4D936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070F7885198352E1F78430D5 /* Pods-ViTuBe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = Vitube/ViTuBeHeader.pch;
+				INFOPLIST_FILE = ViTuBe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mts.ViTuBe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		703D1B671BEB343400F4D936 /* Build configuration list for PBXProject "ViTuBe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703D1B811BEB343500F4D936 /* Debug */,
+				703D1B821BEB343500F4D936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703D1B831BEB343500F4D936 /* Build configuration list for PBXNativeTarget "ViTuBe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703D1B841BEB343500F4D936 /* Debug */,
+				703D1B851BEB343500F4D936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 703D1B641BEB343400F4D936 /* Project object */;
+}

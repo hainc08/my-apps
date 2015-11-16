@@ -1,0 +1,18 @@
+//
+//  ViTuBeHeader.pch
+//  ViTuBe
+//
+//  Created by haimv on 2015/11/05.
+//  Copyright © 2015年 haimv. All rights reserved.
+//
+
+#ifndef ViTuBeHeader_pch
+#define ViTuBeHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppConfig.h"
+#import "PrefixFile.h"
+
+#endif /* ViTuBeHeader_pch */
